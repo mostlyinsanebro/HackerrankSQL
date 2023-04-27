@@ -1,0 +1,8 @@
+Problem Link:-
+https://www.hackerrank.com/challenges/weather-observation-station-5/problem
+
+
+Solution:-
+Select * from (Select city, length(city) from station order by length(city),city) where rownum =1
+union
+Select * from (Select city, length(city) from station order by length(city)desc,city) where rownum =1;
