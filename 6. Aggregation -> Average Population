@@ -1,0 +1,6 @@
+Problem Link:-
+https://www.hackerrank.com/challenges/average-population/problem?isFullScreen=true
+
+
+Solution:-
+select round(avg(population)) from city;
