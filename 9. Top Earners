@@ -1,0 +1,7 @@
+Problem Link:-
+https://www.hackerrank.com/challenges/earnings-of-employees/problem?isFullScreen=true
+
+
+Solution:-
+Select total_salary, cou from 
+(Select salary*months as total_salary,count(salary*months) as cou from employee group by salary*months order by salary*months desc) where rownum =1;
