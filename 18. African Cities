@@ -1,0 +1,11 @@
+Problem Link:-
+https://www.hackerrank.com/challenges/african-cities/problem?isFullScreen=true
+
+
+
+Solution:-
+SELECT c.name
+FROM city c,
+     country co
+WHERE c.countrycode = co.code
+AND co.CONTINENT = 'Africa';
