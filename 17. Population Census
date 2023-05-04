@@ -1,0 +1,9 @@
+Problem Link:-
+https://www.hackerrank.com/challenges/asian-population/problem?isFullScreen=true
+
+
+Solution:-
+Select sum(c.population) from city c,
+       country co
+      WHERE c.countrycode = co.code
+      AND co.continent = 'Asia';
