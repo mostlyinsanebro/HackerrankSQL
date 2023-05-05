@@ -1,0 +1,6 @@
+Problem Link:-
+https://www.hackerrank.com/challenges/average-population-of-each-continent/problem?isFullScreen=true
+
+
+Solution:-
+Select continent,floor(avg(c.population)) from city c,country co where c.countrycode = co.code group by continent;
