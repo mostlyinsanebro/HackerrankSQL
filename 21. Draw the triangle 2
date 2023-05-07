@@ -1,0 +1,18 @@
+Problem Link:-
+https://www.hackerrank.com/challenges/draw-the-triangle-2/problem?isFullScreen=true
+
+
+Solution:-
+SET SERVEROUTPUT ON;
+declare
+   x integer;
+   y integer;
+begin
+   for x in 1..20 loop
+      for y in 1..x loop
+         dbms_output.put('* ');
+       end loop;
+        dbms_output.put_line('');
+   end loop;
+end;
+/
