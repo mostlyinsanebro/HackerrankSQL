@@ -1,0 +1,18 @@
+Problem Link:-
+https://www.hackerrank.com/challenges/draw-the-triangle-1/problem
+
+
+Solution:-
+set SERVEROUTPUT on;
+declare
+   x integer ;
+   y integer ;
+begin
+   for x in 1..20 loop
+       for y in 1..(20-x+1) loop
+         dbms_output.put('* ');
+      end loop;
+      dbms_output.put_line('');
+end loop;
+end;
+/  
