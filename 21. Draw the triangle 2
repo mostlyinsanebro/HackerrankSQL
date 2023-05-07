@@ -16,3 +16,6 @@ begin
    end loop;
 end;
 /
+
+
+Note:- / is basically used to enter terminate a PL/SQL block, ; does not terminate or execute a PL/SQL block.
