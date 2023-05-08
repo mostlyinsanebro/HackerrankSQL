@@ -1,0 +1,9 @@
+Problem Link:-
+https://www.hackerrank.com/challenges/the-pads/problem?isFullScreen=true
+
+
+
+
+Solution :-
+SELECT name||'('||substr(occupation,1,1)||')' FROM occupations order by name;
+Select 'There are a total of '||count(occupation)||' '||lower(occupation)||'s.' from occupations  group by occupation order by count(occupation),occupation;
