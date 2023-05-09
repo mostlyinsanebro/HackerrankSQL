@@ -4,4 +4,11 @@ https://www.hackerrank.com/challenges/binary-search-tree-1/problem?isFullScreen=
 
 
 Solution:-
-
+Select n,
+CASE 
+WHEN p IS NULL THEN 'Root'
+WHEN (Select count(*) from BST where b1.n = p) > 0 THEN 'Inner'
+WHEN (Select count(*) from BST where b1.n = p) = 0 THEN 'Leaf'
+END
+from BST b1
+order by n;
